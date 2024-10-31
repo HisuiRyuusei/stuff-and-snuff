@@ -1,0 +1,24 @@
+.neko_2{
+    background-color: black;
+    display: flex;
+    width: 80%;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 10px 0px;
+}
+
+.neko_2 img {
+    width: 500px;
+    height: 700px;
+    object-fit: cover;
+}
+@media (max-width: 840px){
+    .neko_2{
+        justify-content: space-between;
+    }
+}
+@media (max-width: 480px){
+    .neko_2 img{
+        flex-basis: calc(40% - 0px);
+    }
+}
